@@ -7,10 +7,12 @@ int main()
     int plan;
     double amount, times, total;
     float interest;
-    cout << "Enter plan: 5/10/35/120/200-- ";
+    cout << "Enter plan: 3/5/10/35/120/200-- ";
     cin >> plan;
     switch(plan)
     {
+        case 3: interest = 0.19;
+        break;
         case 5: interest = 0.3;
         break;
         case 10: interest = 0.43;
